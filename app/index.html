@@ -33,8 +33,46 @@
 
 	<!-- Custom HTML -->
 
-	<header>
+	<header class="header">
+		<div class="navigation container">
+			<nav class="navbar navbar-expand-lg navbar-dark  ">
+				<a class="navbar-brand" href="/"><img src="img/_src/logo.svg" alt=""></a>
+				<button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div id="my-nav" class="collapse navbar-collapse">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">О комплексе<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Район</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" href="#" tabindex="0" aria-disabled="true">Каталог квартир</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" href="#" tabindex="1" aria-disabled="true">Ипотека</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" href="#" tabindex="2" aria-disabled="true">Контакты</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
 
+			<div class="header--row row d-flex align-items-center">
+				<div class="col-20 text-center">
+					<h1>Жилой комплекс <br> в историческом центре</h1>
+					<img src="img/_src/mouse.svg" alt="" class="mouse">
+				</div>
+				
+			</div>
+			<div class="row addressBlock">
+				<div class="col-10 text-right addressBlock"><img src="img/_src/mapItem.svg" alt=""><span class="address">Наб. реки Фонтанки 10-15</span> </div>
+				<div class="col-10 addressBlock"><img src="img/_src/phone.svg"><span class="address">8(812) 123-45-67</span> </div>
+			</div>
+		</div>
 	</header>
 
 	<main>

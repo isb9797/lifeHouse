@@ -38,6 +38,47 @@ body
 b, strong
 	font-weight: bold
 
+//headers
+h1, h2
+	color: $accent
+	font-family: $header-font
+	font-weight: bold
+
+h1
+	font-size: 48px
+	line-height: 64px
+h2
+	font-size: 36px
+	line-height: 48px
+
+//modificators
+.text-right
+	text-align: right
+
+
+//header
+
+.header
+	min-height: 840px
+	background: #1a1616
+	background-image: url('../img/_src/firstScreen.png')
+	background-repeat: no-repeat
+	background-size: 100%
+	&--row
+		min-height: 500px
+
+	.mouse
+		margin-top: 100px
+
+	.addressBlock
+		margin-top: calc( 100vh - 79% )
+	.address
+		margin-left: 10px
+		margin-right: 20px
+
+	
+
+
 
 
 @import "media" // Always at the end
