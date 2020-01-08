@@ -124,30 +124,72 @@
 				
 				<div class="row section_3--row d-flex align-items-center">
 					<h2 class="col-20">Хотите посмотреть?</h2>
-					<div class="col">
+					<div class="col-9">
 						<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. 
 						</p>
 
 					</div>
-					<div class="form">
-						<div class="form-group">
-							<label for="my-input">Text</label>
-							<input id="my-input" class="form-control" type="text" name="">
+					<div class="form col-9 offset-2">
+						<div class="form-group row">
+							
+							<input id="my-input" class="form-control col-9 text-center" type="text" placeholder="Ваше имя" name="">
+							<input id="my-input" class="form-control col-9 text-center offset-2" type="text" placeholder="Ваш телефон" name="">
+							
+						</div>
+						<div class="form-group row">
+							<p class="form--warning col-9 text-center">*Мы никому не передаём ваши данные.<br> 
+								И не сохраняем ваш номер в базу.</p>
+							<button type="submit" class="btn button text-center col-9 offset-2">Посмотреть район</button>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 		<section class="section section_4 container">
-			<div class="row section_4--row"></div>
+			<div class="row section_4--row">
+				<h2 class=" col-20">Район на карте</h2>
+				<div class="map col-20">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1680.3766599203768!2d30.337405911801397!3d59.943493421368444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310b650fe5e1%3A0xed02023eb11a8bc5!2z0L3QsNCx0LXRgNC10LbQvdCw0Y8g0YDQtdC60Lgg0KTQvtC90YLQsNC90LrQuCwgMTAsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTEwMjg!5e0!3m2!1sru!2sru!4v1578511794792!5m2!1sru!2sru"  frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+				</div>
+			</div>
 		</section>
 		<section class="section section_5 container">
 			<div class="row section_5--row"></div>
 		</section>
 	</main>
 
-	<footer>
-		
+	<footer class="footer">
+		<div class="container ">
+			<div class="row footer--row">
+				<div class="col "><a class="footbar-brand" href="/"><img src="img/_src/logo.svg" alt=""></a></div>
+				<div class="col">
+					<ul>
+						<li><a href="#">О комплексе</a></li>
+						<li><a href="#">Район</a></li>
+						<li><a href="#">Каталог квартир</a></li>
+						<li><a href="#">Ипотека</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<ul>
+						<li><a href="#">О комплексе</a></li>
+						<li><a href="#">Район</a></li>
+						<li><a href="#">Каталог квартир</a></li>
+						<li><a href="#">Ипотека</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<ul>
+						<li>Адрес: Наб. реки Фонтанки 10-15</li>
+						<li>Телефон: 8 (812) 123-45-67</li>
+						<li>Отдел продаж: 10:00 - 20:00</li>
+						<li>E-mail: <span class="important">vip@housevip.ru</span> </li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</footer>
 
 	<script src="js/scripts.min.js"></script>

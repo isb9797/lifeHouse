@@ -51,10 +51,13 @@ h2
 	font-size: 36px
 	line-height: 48px
 
+
 //modificators
 .text-right
 	text-align: right
-
+.important
+	color: $accent
+	font-weight: bold
 
 //header
 
@@ -118,10 +121,78 @@ h2
 		background-image: url('../img/_src/threeScreen.png')
 		margin-top: -83px
 		h2
-			margin-bottom: -350px
+			
+			margin-bottom: -300px
 		&--row
 			min-height: 560px
+			
+		input
+			background: #FFFFFF
+			opacity: 0.2
+			height: 50px
+			border: none
+			border-radius: 0px
+			color: #BEBEBE
+			transition: opacity 1s
+			&:focus, &:hover
+				opacity: 100 
+			
+			
+		
+		
+		button
+			color: #ffffff
+			background: $accent
+			height: 50px
+			border-radius: 0px
+			font-size: 16px
+			font-weight: bold
+			
+			&:hover
+				background:  #d4ac18
+
+		.form--warning
+			font-size: 13px
+			padding: 0
+			text-indent: 0
+			white-space: nowrap
 
 				
-					
+	&_4
+		min-height: 494px
+		margin-bottom: 20px
+		
+		h2
+			margin-top: 30px
+			margin-bottom: 100px
+		&--row
+			min-height: 494px
+
+			.map
+				iframe
+					height: 358px
+					width: 100%
+
+
+//footer
+.footer
+	min-height: 272px
+	background: #2D343C
+	color: #fff
+	padding-top: 60px
+	
+	&--row
+		min-height: 212px
+		li
+			list-style: none
+			margin-bottom: 5px
+			white-space: nowrap
+			font-size: 14px
+		a
+			text-decoration: none
+			color: #ffffff
+
+		
+
+
 @import "media" // Always at the end
