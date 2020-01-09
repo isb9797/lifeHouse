@@ -1,1 +1,2 @@
-<h1>Optimaze HTML 4: Sergey Ilin Edition</h1>
+<h1>Life House Project.</h1>
+<img src="app/img/Screenshot_2020-01-09 Life House.jpg">
